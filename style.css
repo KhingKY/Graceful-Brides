@@ -100,7 +100,7 @@ header{
   animation: checked-anim .8s both;
 
 }
-#menu-toggle:checked + #trigger ~ #menu > li, a {
+#menu-toggle:checked + #trigger ~ #menu > li, #menu>a {
   display: block;
 }
 [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
@@ -172,7 +172,7 @@ header{
 }
 
 /*banner style*/
-.pimg1{
+.pimg1,.mermaid_img{
   position: relative;
   opacity: 1;
   background-position: center;
@@ -180,9 +180,11 @@ header{
   background-repeat: no-repeat;
   min-height: 90vh;
   background-attachment: fixed;
-  background-image: url(images/product_banner.jpg);
   background-size: cover;
 }
+
+.pimg1{background-image: url(images/product_banner.jpg);}
+.mermaid_img{background-image: url(images/mermaid_banner.jpg);}
 
 @media(max-width:568px){
   .pimg1{
@@ -192,25 +194,37 @@ header{
 
 .ptext h1{
   position: absolute;
-  top: 45%;
+  top: 40%;
   width: 100%;
   text-align: center;
   font-size: 2.5em;
   letter-spacing: 5px;
   text-transform: uppercase;
+  font-weight: normal;
 }
 
 .ptext .border{
-  background-color: rgba(17, 17, 17, 0.55);
   border: 5px double white;
   color:#fff;
   padding: 20px;
 }
 
+.ptext p{
+  color:white;
+  position: absolute;
+  top: 70%;
+  width: 100%;
+  margin: 0;
+  padding:0 5% 0 5%;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 1.5vw;
+  font-family: 'Times New Roman', Times, serif;
+}
 
 /*-----------------------------------------------------Product categories Styling---------------------------------------------------*/
 @media (min-width: 800px){
-  main{
+  .category{
     display:grid;
     width: 75%;
     grid-template-columns: 1fr 1fr 1fr;
@@ -413,13 +427,64 @@ bottom:0;
   }
 }
 
-
 /*---------------------------------------------------------------footer styling-------------------------------------------------------*/
 
 footer{
+  height: 100%;
+  width: 100%;
   clear: both;
 	text-align:center;
-	color: #9896a4;
-	font-family: "Times New Romans";
-	
+  background-color: whitesmoke;
+  box-shadow: 0 0 15px 1px grey;
+  color: grey;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  line-height: 1.5;
+}
+
+.wrapper ul li{
+  list-style-type: none;
+}
+
+.wrapper ul li a{
+  text-decoration: none;
+  color: grey;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.wrapper ul li a:hover{
+  color: hotpink;
+  transition:.5s;
+}
+
+.wrapper ul li h3, .social_media h3{
+  font-size: 30px;
+  color:#D4AF37;
+  font-weight: 400;
+  margin:10px;
+}
+
+.social_media li{
+	display: inline-block;
+  margin-right: 1.5em;
+}
+
+.social_media li a:hover img{
+  transform: scale(1.4)
+}
+
+.copyright_chunk{
+  text-align: center;
+  margin-bottom:0;
+}
+
+
+.logo_footer img{
+  width:250px;
 }
