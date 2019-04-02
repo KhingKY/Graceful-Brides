@@ -172,7 +172,7 @@ header{
 }
 
 /*banner style*/
-.pimg1,.mermaid_img,.ballgown_img{
+.pimg1,.mermaid_img,.ballgown_img,.aline_img{
   position: relative;
   opacity: 1;
   background-position: center;
@@ -186,6 +186,7 @@ header{
 .pimg1{background-image: url(images/product_banner.jpg);}
 .mermaid_img{background-image: url(images/mermaid_banner.jpg);}
 .ballgown_img{background-image: url(images/ballgown_banner.jpg);}
+.aline_img{background-image: url(images/AlineBanner.jpg);}
 
 
 @media(max-width:568px){
