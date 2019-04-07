@@ -1,84 +1,126 @@
 <!DOCTYPE html>
+<!--Description: Swinburne Creating Web Applications Assignment 1-Index-->
+<!--Author: Maxine, Chan Kwang Yung-->
+<!--Date: 4/4/2019-->
+<!--Validated: -->
 <html lang="en">
 <head>
-	<title>Graceful Bride - Lace Dresses</title>
 	<meta charset="utf-8"/>
-	<link rel="stylesheet" type="text/css" href="style/lacedress.css"/>
+	<meta name="author" content="Maxine, Chan Kwang Yung"/>
+	<meta name="description" content="Graceful Brides Homepage"/>
+	<meta name="keywords" content="Bridals, rental, service, brides"/>
+	<title>Graceful Brides</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css"/>
 	<script src=".js"></script>
 	<script src=".js"></script>
 </head>
 
 <body>
 	<header> 
-        <div class="logo">
-            <a href="index.html"><img src="images/logo/wed-logo.png" alt="logo" class="logo"></a>
-	</div>
-		<ul class="nav">
-			<li><a href="index.html">HOME</a></li>
-			<li><a href="product.html">PRODUCTS</a></li>
-			<li><a href="faq.html">FAQ</a></li>
-			<li><a href="aboutus.html">ABOUT</a></li>
-			<li><a href="form.html">FORM</a></li>
-            <li class="nav"><a href="disclaimer.html" class="selection">Disclaimer</a>
-						<div class="" id="">
-						</div></li>
+	<nav>
+        <div class="main-menu">
+		<!--Hamburger menu icon-->
+		<input type="checkbox" id="menu-toggle"/>
+		<label id="trigger" for="menu-toggle"></label>
+		<label id="burger" for="menu-toggle"></label>  
+		<ul id="menu">
+			<li class="first"><a href="index.html">Home</a></li>
+			<li><a href="products.html">Products</a></li>
+			<li class="products"><a href="ballgown.html">Ballgowns</a></li>
+			<li class="products"><a href="lace.html">Laces</a></li>
+			<li class="products"><a href="aline.html">A-lines</a></li>
+			<li class="products"><a href="mermaid.html">Mermaids</a></li>
+			<li><a href="enquiry.html">Book Now</a></li>
+			<li><a href="aboutus.html">About</a></li>
+                        <li><img src="images/menu_img1.jpg" alt="Header banner"/></li>
         </ul>
+	<div>
+		<div class="logo">
+			 <a href="index.html"><img src="images/logo.png" alt="Graceful Brides Logo" height="60" width="241"/></a>
+		</div>
+		</nav>
     </header>
 	
 	<article>	
+		<div class="product_heading">
 		<h1>Lace dresses</h1>
-		<h2 class="name" id="productName">Classic Lace Wedding Gown</h2>
-		<!-- Source https://www.essensedesigns.com/martina-liana/wedding-dresses/992/ -->
-		<div class="box1">
-			<img src= "images/classic/classic.jpg" alt="classic" class="lacedress"/>
-			<h2 class="subheadings">Details</h2>
+		</div>
+		<aside class="product_link">
+		<ul>
+	                <li><a href="lace1.html">Lace Dress with Off-The-Shoulder Sleeves</a> &#8226</li>
+			<li><a href="lace2.html">Lace and Chiffon Wedding Gown with Cap Sleeves</a> &#8226</li>
+			<li><a href="lace3.html">Classic Lace Wedding Gown</a> &#8226</li>
+			<li><a href="lace4.html">Princess Wedding Dress with Off-The-Shoulder Sleeves</a> &#8226</li>
+			<li><a href="lace5.html">Illusion Racerback Wedding Dress with High Neck</a> &#8226</li>
+			<li><a href="lace6.html">Modest Illusion Lace Wedding Dress Separates</a> &#8226</li>
+		</ul>
+	</aside>
+			
+		<article>
+		<div class="product_details">
+		<main class="product_showcase">
+			
+		<figure class="product_item1">
+	        <img class="product_image" src="images/classic5.jpg" alt="Lace classic" />	
+		<!-- This information is taken from https://www.essensedesigns.com/martina-liana/wedding-dresses/992/ -->
+		</figure>
+		
+		<figure class="product_item2">
+	        <img class="product_image" src="images/classic5a.jpg" alt="Lace classic2" />
+		<!-- This information is taken from https://www.essensedesigns.com/martina-liana/wedding-dresses/992/ -->
+		</figure>
+			
+		<figure class="product_item3">
+		<img class="product_image" src="images/classic5b.jpg" alt=" Lace classic3" />
+		<!-- This information is taken from https://www.essensedesigns.com/martina-liana/wedding-dresses/992/ -->
+		</figure>
+		
+			</main>		
+	<section class="box1">
+		<h2 class="name">Classic Lace Wedding Gown</h2>
+		<p class="price">RM650/month</p>
+		<p class="book"><a href="enquire.html">Enquire Now</a></p>	
+	<div>
+           <h3>Details</h3>
 				<ul class="cnt">
-				    <li>
-						<ul class="icon">
+				  
 							<li><strong>Fabrics:</strong> Lace &amp; Tulle over Matte-Side Lustre Satin</li>
 							<li><strong>Detail Options:</strong> Ivory beading <br> White Beading </li>
 							<li><strong>Back:</strong> Zip Up with Fabric Buttons</li>
 						</ul>
-					</li>
-				</ul>				
-		</div>
 	
-	<!-- Source https://www.essensedesigns.com/martina-liana/wedding-dresses/992/-->
-		<div class="box1">
-			<img src="images/classic/classic2.jpg" alt="classic2" class="lacedress"/>
-			<h2 class="subheadings">Description</h2>
+			<h3>Description</h3>
 			<p>A classic lace design, this fit-and-flare gown from Martina Liana brings the sexiness with its open back. A sweetheart neckline, highlighted with sheer peek-a-boo detailing, is accented on either side with sexy shoestring straps. Soft lace adorns the fitted bodice of this gown, spacing out slightly on the flared skirt, and finished with a full lace hem. Floating straps accentuate the completely open back of this style, while a dramatic lace train completes the look. The back of this backless wedding dress zips up beneath fabric-covered buttons.</p>
-		</div>
-	<!-- Source https://www.essensedesigns.com/martina-liana/wedding-dresses/992/ -->
-		<div class="box3">
-            <img src="images/classic/classic3.jpg" alt="classic3" class="lacedress"/>
-			<h2 class="subheadings">Designer Notes</h2>
+	
+			<h3>Designer Notes</h3>
 			<p>The Martina Liana Bridal Collection is the embodiment of exquisite couture wedding dress design. Each dress is a perfect choice for the bride who wants to radiates confidence, global glamour, and impeccable style on her wedding day.
             </p>
 			
-            <h2 class="price">Rental price RM650</h2>
 		</div>
-
-		<div class="booknow"><a href="form.html" title="Book Now" onclick="nameStore()" class="book">Book Now</a></div>	
-	</article>
+			</section>
+			</div>
+		</article>
+	<hr>
 
 <footer>
 	<div class="wrapper">
-		<div class="lists">
-			<h3>Discover</h3>
+		<div class="products_footer">
 			<ul>
+				<li><h3>Products</h3></li>
 				<li><a class="hover_line" href="a-line.html">A-line dresses</a></li>
 				<li><a class="hover_line" href="mermaid.html">Mermaid style dresses</a></li>
 				<li><a class="hover_line" href="ballgown.html">Ballgowns</a></li>
 				<li><a class="hover_line" href="lace.html">Lace style dresses</a></li>
 			</ul>
 		</div>
-		<div class="lists">
-			<h3>Company</h3>
+		
+		<div class="company">
 			<ul>
-				<li><a class="hover_line" href="About.html">About Us</a></li>
-				<li><a class="hover_line" href="feedback.html">Contact Us</a></li>
-				<li><a class="hover_line" href="Quinoa.html">About Team</a></li>
+				<li><h3>Company</h3></li>
+				<li><a class="hover_line" href="aboutus.html">About Us</a></li>
+				<li><a class="hover_line" href="enhancements.html">Enhancements</a></li>
+				<li><a class="hover_line" href="disclaimer.html">Disclaimer</a></li>
+				<li><a class="hover_line" href="enquiry.html">Enquire about products</a></li>
 			</ul>
 		</div>
 
@@ -95,10 +137,9 @@
 		</div>
 	</div>
 
-	<div class="logo">
-		<a href><img class="logo" src="images/logo/wed-logo.png" alt='Graceful brides logo'></a>
-	<p>&#169;<a href="aboutus.html" title="Developers"><span id="teamname"> 2019 Power</span> </a>| Page developed
-        by Kai - Jasmin  - Elaine - Maxine - |Last updated: 27/03/2019 5:26pm</p>
+	<div class="logo_footer">
+		<a href="index.html" title="Back to Home"><img src="images/wed-logo.png" alt='Graceful brides logo'></a>
+	<p>&copy; 2019 Power| Page developed by Kai - Jasmin  - Elaine - Maxine - |Last updated: 27/03/2019 5:26pm</p>
     </div>
 </footer>
     </body>
