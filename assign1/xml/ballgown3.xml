@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!--Description: Swinburne Creating Web Applications Assignment 1-Peoduct detail page-->
+<!--Author:  Chan Kwang Yung-->
+<!--Date:1/4/2019-->
+<!--Validated: -->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="author" content="Chan Kwang Yung"/>
+    <meta name="description" content="Graceful Brides Homepage"/>
+    <meta name="keywords" content="Bridals, rental, service, brides"/>
+    <title>Graceful Brides-Ballgown Dresses</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css"/>
+</head>
+
+<body>
+	<header>
+		<nav>
+			<div class="main-menu">
+			  <!--Hamburger menu icon-->
+				<input type="checkbox" id="menu-toggle"/>
+				<label id="trigger" for="menu-toggle"></label>
+				<label id="burger" for="menu-toggle"></label>
+				<ul id="menu">
+					<li class="first"><a href="index.html">Home</a></li>
+					<li><a href="products.html">Products</a></li>
+					<li class="products"><a href="ballgown.html">Ballgowns</a></li>
+					<li class="products"><a href="ballgown.html">Laces</a></li>
+					<li class="products"><a href="aline.html">A-lines</a></li>
+					<li class="products"><a href="mermaid.html">Mermaids</a></li>
+					<li><a href="enquiry.html" target="_blank">Book Now</a></li>
+					<li><a href="aboutus.html">About Us</a></li>
+					<li><img src="images/menu_img1.jpg" alt="Header banner"/></li>
+				</ul>
+			</div>
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.png" alt="Graceful Brides Logo" height="60" width="241"/></a>
+			</div>
+		</nav>	
+	</header>
+
+	<div class="product_heading">
+			<h1>Ball gowns</h1>
+	</div>	
+
+	<aside class="product_link">
+		<ul>
+			<li><a href="ballgown1.html">#104374 COUTURE</a> &#8226;</li>
+			<li><a href="ballgown2.html">#119270 Gwendolyn</a> &#8226;</li>
+			<li><a href="ballgown3.html">#145368 MARIA</a> &#8226;</li>
+			<li><a href="ballgown4.html">#Y11958 Rylee</a> &#8226;</li>
+			<li><a href="ballgown5.html">#654912 KYLO</a> &#8226;</li>
+			<li><a href="ballgown6.html">#6800 ANDI</a></li>
+		</ul>
+	</aside>
+
+<main>
+<div class="product_details">
+	<section class="product_showcase">
+		<figure class="product_item1">
+			<img class="product_image" src="images/ballgown3.jpg" alt="Ballgown Maria"/>  
+			<!-- This information is taken from https://sassiholford.com/dresses/maria/-->
+		 </figure>
+
+		 <figure class="product_item2">
+			<img class="product_image" src="images/ballgown3a.jpg" alt="Ballgown Maria2"/>  
+			<!-- This information is taken from https://sassiholford.com/dresses/maria/-->
+		 </figure>
+
+		 <figure class="product_item3">
+			<img class="product_image" src="images/ballgown3b.jpg" alt="Ballgown Maria3"/>  
+			<!-- This information is taken from https://sassiholford.com/dresses/maria/-->
+		 </figure>
+
+		</section>
+
+	<section class="box1">	
+		<h2 class="name">#145368 MARIA</h2>
+		<p class="price">RM580/day</p>
+		<p class="book"><a href="enquiry.html" target="_blank">Enquire Now</a></p>
+	
+			<h3>Details</h3>
+				<ul class="cnt">
+							<li><strong>Fabric:</strong> Silk, Tulle, Sheer</li>
+							<li><strong>Size Options:</strong> 2-24</li>
+							<li><strong>Features:</strong> A large amount of bows</li>
+							<li><strong>Colors:</strong>White, Eggshell white, Snow</li>
+				</ul>
+			<h3>Description</h3>
+            <p>This gown is for you if you are the kind of person that wants to be seen as the most elaborate and sexiest person in the area on your special day, and who does not want that on their wedding day? It is your day after all. The top of the dress is all about sexy, featuring a sleeveless halter neck with a revealing low V-neckline reaching until the abdomen area which will be ended by a piece of silk fabric around your waist area. The back is mostly comprised of a large sheer bow tulle with an ending long enough to trail the ground tied around the neck and a very low back, revealing almost the whole back area of the bride. As we come down to the skirt of the gown, we are greeted with only more bows. A lot more bows. The whole skirt is comprised of thousands of bows tied to it, giving is great intricacy in contrast with the quite simple top.</p>
+            
+			<h3>Designer Notes</h3>
+			<p>Bisconsin Maria, the designer of the dress, said that she put the most effort in designing and making this dress compared the others that she made from past years. All the bows attached on the dress was handtied and sewn on securely to prevent any of them from falling off.</p>				
+
+	</section>
+</div>
+	</main>
+
+	<footer>
+		<div class="wrapper">
+			<div class="products_footer">
+				<ul>
+					<li><h3>Products</h3></li>
+					<li><a class="hover_line" href="aline.html">A-line dresses</a></li>
+					<li><a class="hover_line" href="mermaid.html">Mermaid dresses</a></li>
+					<li><a class="hover_line" href="ballgown.html">Ball gowns</a></li>
+					<li><a class="hover_line" href="ballgown.html">Lace dresses</a></li>
+					
+	
+				</ul>
+			</div>
+	
+			<div class="company">
+				<ul>
+					<li><h3>Company</h3></li>
+					<li><a class="hover_line" href="aboutus.html">About Us</a></li>
+					<li><a class="hover_line" href="enhancements.html" target="_blank">Enhancements</a></li>
+					<li><a class="hover_line" href="disclaimer.html" target="_blank">Disclaimer</a></li>
+					<li><a class="hover_line" href="enquiry.html" target="_blank">Enquire about products</a></li>
+				</ul>
+			</div>
+	
+	
+			<div class="social_media">
+				<h3>Join us!</h3>
+					<ul>
+											<li><a class="logo_img" id="facebook" href="#" target="_blank" ><img src="images/fb.png" rel="facebook" alt="facebook"/></a></li>
+											<li><a class="logo_img" id="instagram" href="#" target="_blank" ><img src="images/in.png" rel="instagram" alt="instagram"/></a></li>
+											<li><a class="logo_img" id="twitter" href="#" target="_blank" ><img src="images/tw.png" rel="twitter" alt="twitter"/></a></li>
+					</ul>
+			</div>
+		</div>
+	
+		<div class="logo_footer">
+			<a href="index.html" title="Back to Home"><img src="images/wed-logo.png" alt="Graceful Brides Logo" title="Back to Home"/></a>
+		
+		<p>&#xa9;2019 Power| Page developed by Ky| Last updated: 05/04/2019 3:12pm</p>
+			</div>
+	</footer>
+    </body>
+</html>
